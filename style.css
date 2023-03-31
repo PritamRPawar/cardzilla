@@ -1,0 +1,36 @@
+input[type=password]
+{
+    background-image: url('images/eye.png');
+    background-repeat: no-repeat ;
+    background-position: right;
+    background-size: 20px;
+}
+a:link,a:active,a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+button:hover{
+    color: red;
+}
+
+#myTabContent1
+{
+    height: 35vh;
+    overflow-y: scroll;
+}
+.hide{
+    display: none;
+}
+.card:hover .hide{
+    display: block;
+}
+/* #myflex2{
+    height: 100vh;
+    overflow-y: scroll;
+} */
+
